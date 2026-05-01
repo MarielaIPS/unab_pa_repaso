@@ -1,0 +1,11 @@
+Ejercicio 5.2 — Por hacer (teórico)
+Explicá con tus palabras: ¿cómo se deben definir los métodos cuando usás type()? ¿Qué rol
+cumple self? Mostralo con un ejemplo propio.
+
+los metodos se crean por fuera de type
+ y dentro se pasa en el 3° parametro por un diccionario {"nombrequequiero":nombredelmetodo} 
+
+ self se utiliza para indicar que hace referencia a si mismo.
+
+ def funcion_propia(self,algo)
+    self.algo=algo 
